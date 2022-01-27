@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container img {
+  width: 100%;
+  margin: 0;
+}
+
+.button {
+  margin: 1 auto;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.button button {
+  border-radius: 8px;
+  background-color: rgb(254, 200, 40);
+  padding: 0.3rem 1rem;
+  border: none;
+}
+
+.button a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-size: 1.5rem;
+}
+
+button:hover {
+  border: solid 2px rgb(67, 166, 251);
+  background: rgb(67, 166, 251);
+}
